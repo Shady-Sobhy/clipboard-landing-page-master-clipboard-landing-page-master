@@ -1,0 +1,357 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
+}
+.header-logo {
+  margin-top: 20px;
+  width: 160px;
+  height: 30px;
+}
+
+.header-logo:hover {
+  cursor: pointer;
+}
+
+.get-start-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  margin-top: 50px;
+}
+
+.get-start-title {
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: hsl(192, 100%, 9%);
+}
+.get-start-btn {
+  color: white;
+  border-radius: 50px;
+  border: none;
+  font-size: 20px;
+  width: 385px;
+  height: 75px;
+  margin-top: 18px;
+  font-weight: 400;
+  background-color: hsl(322, 100%, 66%);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.192);
+  font-family: "Open Sans", sans-serif;
+}
+.get-start-btn:hover {
+  cursor: pointer;
+  opacity: 75%;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.first-section {
+  margin-top: -25px;
+  margin-bottom: 50px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.left-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+  width: 730px;
+}
+.right-section {
+  width: 750px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin: 75px 210px;
+}
+
+.number {
+  font-size: 75px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+.text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  color: hsl(208, 11%, 55%);
+}
+
+.left-section-title {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: hsl(192, 100%, 9%);
+}
+
+.paragraph {
+  font-size: 16px;
+  margin-bottom: 40px;
+  line-height: 20px;
+  font-weight: 400;
+  color: hsl(208, 7%, 40%);
+  width: 450px;
+  text-align: center;
+}
+.get-started-btn {
+  width: 325px;
+  height: 60px;
+  border: none;
+  color: white;
+  border-radius: 50px;
+  margin-bottom: 50px;
+  font-weight: 400;
+  font-size: 17px;
+  background-color: hsl(322, 100%, 66%);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.192);
+  font-family: "Open Sans", sans-serif;
+}
+
+.get-started-btn:hover {
+  cursor: pointer;
+  opacity: 75%;
+}
+
+.subscribe:hover {
+  cursor: pointer;
+  opacity: 75%;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+  padding: 40px;
+  margin-bottom: 40px;
+  position: relative;
+  background-color: #f6fbff;
+  margin-bottom: 135px;
+  width: 100%;
+}
+.right-stats,
+.left-stats {
+  margin-bottom: 75px;
+}
+.bg-section-top {
+  bottom: 0;
+  top: -155px;
+  left: 0px;
+  right: 0px;
+  position: absolute;
+  z-index: -5;
+  width: 100%;
+}
+.Conversations {
+  background-color: white;
+}
+.bg-section-bottom {
+  bottom: -120px;
+  left: 0px;
+  right: 0px;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+}
+
+.card-right {
+  margin-left: 430px;
+  width: 400px;
+}
+.card-title {
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  color: hsl(192, 100%, 9%);
+}
+.card-paragraph {
+  font-size: 18px;
+  margin-bottom: 25px;
+  line-height: 25px;
+  width: 400px;
+  color: hsl(208, 11%, 55%);
+}
+.card-left {
+  margin-left: 40px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.header-btn {
+  margin-top: 25px;
+  width: 150px;
+  height: 40px;
+  color: hsl(322, 100%, 66%);
+  border: 1px solid hsl(322, 100%, 66%);
+  border-radius: 50px;
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.089);
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+.header-btn:hover {
+  cursor: pointer;
+  opacity: 75%;
+}
+
+.middle {
+  position: absolute;
+  right: 90px;
+  bottom: 130px;
+}
+footer {
+  margin-top: 180px;
+  position: relative;
+  color: hsl(208, 11%, 55%);
+  display: flex;
+  background-color: #00252e;
+}
+.start {
+  margin-top: 75px;
+  margin-left: 50px;
+  width: 466px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+}
+.social-media {
+  position: absolute;
+  left: 120px;
+  bottom: 20px;
+  display: flex;
+  width: 150px;
+  justify-content: center;
+  justify-content: space-between;
+}
+.social {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  width: 50px;
+  border-radius: 30%;
+  -webkit-filter: invert(100%);
+  filter: invert(85%);
+}
+.social:hover {
+  cursor: pointer;
+  opacity: 75%;
+}
+
+.footer-logo {
+  filter: brightness(0) invert(1);
+  margin-bottom: 30px;
+  margin-left: 40px;
+}
+.footer-paragraph {
+  line-height: 25px;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+  margin-bottom: 25px;
+  vertical-align: middle;
+}
+.phone {
+  margin-left: 50px;
+  margin-bottom: 25px;
+}
+
+.email {
+  margin-left: 50px;
+}
+.start span {
+  margin-right: 20px;
+}
+.location {
+  margin-bottom: 40px;
+}
+.copyright {
+  position: absolute;
+  bottom: 50px;
+  right: 55px;
+  font-size: 15px;
+}
+
+.card.Conversations {
+  flex-direction: row-reverse;
+  margin-bottom: 195px;
+}
+
+.newsletter {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: hsl(193, 100%, 96%);
+}
+.newsletter-paragraph {
+  width: 400px;
+  margin-bottom: 35px;
+}
+
+.input {
+  height: 50px;
+  width: 250px;
+  border-radius: 8px;
+  border: none;
+}
+.subscribe {
+  border-radius: 8px;
+  margin-left: 30px;
+  font-size: 18px;
+  padding: 15px 50px;
+  font-weight: 400;
+  font-size: 17px;
+  background-color: hsl(322, 100%, 66%);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.192);
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  border: none;
+}
+.bg-footer-top-desktop {
+  width: 125%;
+  position: absolute;
+  left: -285px;
+  right: 0px;
+  top: -200px;
+  bottom: 0;
+  z-index: -5;
+  height: 50%;
+}
